@@ -124,11 +124,11 @@ web_logs = sc.parallelize([
 
 ## Definition of Done
 
-- [ ] Narrow transformations (filter, map) work correctly
-- [ ] Wide transformations (distinct, reduceByKey, sortBy) work
-- [ ] Set operations produce correct results
-- [ ] Log analysis pipeline produces expected output
-- [ ] Understand which transformations cause shuffles
+- [X] Narrow transformations (filter, map) work correctly
+- [X] Wide transformations (distinct, reduceByKey, sortBy) work
+- [X] Set operations produce correct results
+- [X] Log analysis pipeline produces expected output
+- [X] Understand which transformations cause shuffles
 
 ---
 
